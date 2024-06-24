@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <title>İletişim Sayfası</title>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name ="viewport" content="width=device-width , initial-scale=1.0" />
+        <link rel="stylesheet" href="iletisim.css">
+        <link rel="icon" type="image/png" href="karslogo.png"/>
+        <script src="iletisim.js" defer></script>
+<link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    </HEAD>
+    <BODY>
+      
+        <div class="topnav">
+            <UL>
+            <a href="tanıtım.html"> Anasayfa</a></LI>
+            <a  class="menu" href="tarihce.html"class="link" target="_blank"> Tarihçe</a></LI>
+            <a  class="menu" href="tarihivegezilecekyerler.html"  class="link" target="_blank"> Tarihi ve Gezilecek Yerler</a></LI>
+            <a  class="menu" href="konaklamayerleri.html" target="_blank" class="link"> Konaklama Yerleri</a></LI>
+            <a  class="menu" href="ilceler.html" target="_blank" class="link" > İlçeler</a></LI>
+            <a  class="menu" href="sehreozguyiyecekler.html" target="_blank" class="link" > Şehre Özgü Yiyecekler</a></LI>
+            <a  class="menu" href="iletisim.html" target="_blank" class="link" >İletişim Sayfası</a></LI>
+            <a  class="menu" href="quiz.html" target="_blank" class="link" >Şehrimizi ne kadar tanıyorsunuz?</a></LI>
+            <a  class = "bi bi-brightness-high-fill " target="_blank" class="link"  id="toggleDark"></a></LI>
+        </UL>
+            </div>
+  <form action="#">
+    <div align="center">
+        <script type="text/javascript">
+
+            function GÖNDER()
+            {
+                var bilgi = document.getElementById('ornekGiris').value;
+          
+                alert(bilgi);
+        }
+        </script>
+
+    <input class="Ad" placeholder="Ad" type="text"  id="ornekGiris" required />  
+    <input class="Soyad" placeholder="Soyad" type="text" id="ornekGiris" required />
+    <textarea class= "Adres"placeholder="Adres" id="ornekGiris" ></textarea>
+    <input class="Email" placeholder="Email" type="email"  id="ornekGiris" required />
+    <textarea class="Mesaj" placeholder="Mesaj" type="mesaj" id="ornekGiris" ></textarea>
+    <input class="formBtn" type="reset" value="GÖNDER" onClick="GÖNDER()"/>
+    
+</form>
+</div>
+</BODY>
+</HTML>
